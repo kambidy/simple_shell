@@ -94,12 +94,5 @@ int set_OLDPWD(void);
 char *get_target(char *var_name);
 
 void print_err(size_t loop_cnt, char *argv, char **tok_array);
-/* builtins array */
-extern builtin_t builtins[];
 
-/* buitlins functions */
-void my_exit(void);
-void my_exit_status(char **args);
-void _cd(char **args);
-void env_shell(void);
 #endif
