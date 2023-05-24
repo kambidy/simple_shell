@@ -34,11 +34,10 @@ list_t *add_node(list_t **head, const char *str, int num)
 }
 
 /**
- * add_node_end - adds \
- * @head: address
+ * add_node_end - adds
  * @str: str
  * @num: node history
- *
+ * @head: address of head
  * Return: s-list
  */
 list_t *add_node_end(list_t **head, const char *str, int num)
